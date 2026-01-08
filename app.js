@@ -19,7 +19,7 @@ const exportBtn = document.getElementById("exportBtn");
 
 let transactions = load();
 
-// zet default datum = vandaag
+// zet default datum = vandaag 
 dateEl.valueAsDate = new Date();
 
 function euro(n){
